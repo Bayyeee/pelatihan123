@@ -67,3 +67,19 @@ didalam int fa/gi 0/1,1/0,...
 [?](netSesuaiRouter)[mask][subnet]
 [?](netSesuaiSwitch)[mask][subnet]
 
+
+## Managering Redistribusi Bgp X OSPF
+[masukKonfigurasi](router[?])[1-65335] -->> maasukke BGP 
+[?](Redistribusi)[OSPF][1-65335]
+
+[masukKonfigurasi](router[?])[1-65335] -->>
+masukke OSPF
+[?](Redistribusi)[BGP][1-65335]
+`Lakukan Bolak Balik antar Router`
+
+
+## Managering Bandwith
+[MasukKeKonfigurasi][SesuaiIntSwitch]
+[MasukKeKonfigurasi][?](bandwith)[satuan kilobits]
+[masukKonfigurasi](ShowIntFa0/0[pilihsesuaiswitch])
+
